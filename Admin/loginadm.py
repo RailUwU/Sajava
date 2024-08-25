@@ -3,14 +3,14 @@ import pyrebase
 def app ():
     firebaseConfig = {
 
-    'apiKey': "AIzaSyAUAuQRaj6gSclTHSztyDI9n9Vz8aawwFk",
-    'authDomain': "userlogins-911.firebaseapp.com",
-    'databaseURL': "https://userlogins-911-default-rtdb.firebaseio.com/",
-    'projectId': "userlogins-911",
-    'storageBucket': "userlogins-911.appspot.com",
-    'messagingSenderId': "914987160502",
-    'appId': "1:914987160502:web:4f97560167b3277efd2717",
-    'measurementId': "G-RW0TWLCQMH"
+    'apiKey': "AIzaSyAj8xs1MSOfn4TR267Q4xxuVRixk-BQzIw",
+    'authDomain': "cc-admin-93ecd.firebaseapp.com",
+    'databaseURL': "https://cc-admin-93ecd-default-rtdb.firebaseio.com",
+    'projectId': "cc-admin-93ecd",
+    'storageBucket': "cc-admin-93ecd.appspot.com",
+    'messagingSenderId': "725664768368",
+    'appId': "1:725664768368:web:5889431478e84627736fb5",
+    'measurementId': "G-6ZYG7JLH68"
 
     }
 

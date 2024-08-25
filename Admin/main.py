@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from Admin import chatbot,DataInsights,events,forums
+from Admin import chatbot,DataInsights,events,forums,loginadm
 
 # Define the MultiApp class
 class MultiApp:
@@ -44,9 +44,8 @@ class MultiApp:
             chatbot.app()
         elif app== 'Data Insights':
             DataInsights.app()
-        # for future login/signup functionality
-        # elif app == 'Login/Signup':
-        #     login_signup.app()    
+        elif app == 'Login/Signup':
+             loginadm.app()  
 
 # Create an instance of the MultiApp class and run it
 multi_app = MultiApp()
