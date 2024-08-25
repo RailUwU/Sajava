@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import home, forums, events, chatbot
+import home, forums, events, chatbot, loginstu
 
 # Set up the page configuration
 st.set_page_config(
@@ -48,9 +48,9 @@ class MultiApp:
             events.app()        
         elif app == 'Chatbot':
             chatbot.app()
-        # for future login/signup functionality
-        # elif app == 'Login/Signup':
-        #     login_signup.app()    
+      
+        elif app == 'Login/Signup':
+             loginstu.app()    
 
 # Create an instance of the MultiApp class and run it
 multi_app = MultiApp()
