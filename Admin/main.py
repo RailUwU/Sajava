@@ -1,12 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import home, forums, events, chatbot,DataInsights
-
-# Set up the page configuration
-st.set_page_config(
-    page_title="CollegeConnect",
-    page_icon="cc.png"
-)
+from Admin import chatbot,DataInsights,events,forums
 
 # Define the MultiApp class
 class MultiApp:
@@ -40,9 +34,9 @@ class MultiApp:
         st.empty()
 
         # Run the selected app function
-        if app == "Home":
-            home.app()
-        elif app == "Forums":
+        #if app == "Home":
+        #    home.app()
+        if app == "Forums":
             forums.app()    
         elif app == "Events":
             events.app()        
